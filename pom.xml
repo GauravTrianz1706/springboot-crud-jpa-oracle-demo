@@ -67,6 +67,13 @@
 				</exclusion>
 			</exclusions>
 		</dependency>
+
+		<!-- Google Cloud Storage SDK - required by MavenWrapperDownloader for GCS-based file I/O -->
+		<dependency>
+			<groupId>com.google.cloud</groupId>
+			<artifactId>google-cloud-storage</artifactId>
+			<version>2.29.1</version>
+		</dependency>
 	</dependencies>
 
 	<build>
